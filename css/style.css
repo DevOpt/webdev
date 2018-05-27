@@ -1,0 +1,237 @@
+/* --------------------------------- */
+/* Css Styles                        */
+/*---------------------------------- */
+
+/**
+	Berlin - Portfolio Template
+	Author : Tavonline
+	Copyright 2018
+
+
+/*------------------------  ------------------------*/
+
+
+ body{
+    font-family: 'Poppins', sans-serif;
+    height: 1500px;
+ }
+
+ header{
+    position: relative;
+    z-index: 2;
+    padding: 20px 10px;
+ }
+
+ header .buy-link{
+    color: #fafafa;
+    font-size: 13px;
+    font-weight: 600;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    margin-top: 8px;
+ }
+
+ header .buy-link:hover{
+    opacity: 0.7;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+ }
+
+ .promo{
+    height: 500px;
+    background: url(../images/download.jpg);
+    background-size: cover;
+    position: relative;
+    padding: 0 15px;
+ }
+
+ .promo:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(4, 17, 74, 0.75);
+    z-index: 0;
+}
+
+ .promo .promo-content .logo{
+    margin: 0 auto;
+    display: block;
+    max-height: 85px;
+    padding: 15px;
+ }
+
+ .promo .promo-content{
+    text-align: center;
+    color: #fff;
+    padding-top: 80px;
+    z-index: 2;
+    position: relative;
+ }
+
+  .promo .promo-content h1{
+    font-size: 18px;
+    font-weight: 500;
+    padding:30px 0 12px;
+ }
+
+  .promo .promo-content p{
+    font-size: 16px;
+    font-weight: 300;
+    opacity: 0.7;
+    line-height: 28px;
+ }
+
+.page-btn{
+    background: #fff;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    padding: 0 35px;
+    height: 42px;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 43px;
+    color: #000;
+    margin-top: 45px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+    -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+    -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.07);
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+}
+
+.page-btn:hover{
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    background: #e36969;
+    color: #fff;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.22);
+    -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.22);
+}
+
+
+.page-btn.color{
+    background: #e36969;
+    color: #fff;
+}
+
+/*Content Section */
+
+.content{
+    padding-top: 80px;
+}
+
+.content figure img{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+    -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+    -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+}
+
+.content figure img:hover{
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.25);
+    transform: translate(0,-10px);
+}
+
+.content figure figcaption{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+    color: #afafaf;
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+}
+
+
+.content figure:hover figcaption{
+    transition: all ease 0.3s;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    color: #000;
+}
+
+footer{
+    background: #000;
+    height: 300px;
+    margin-top: 90px;
+}
+
+footer .logo{
+    max-height: 60px;
+    margin-top: 45px;
+    padding: 9px;
+}
+
+footer .social {
+    margin-top: 20px;
+}
+
+footer .social a{
+    color: #fff;
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+footer .social a:hover{
+    color: #757575;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+}
+
+footer hr{
+    border-top: 1px solid #313131;
+    margin-top: 40px;
+}
+
+footer p{
+    color: #949494;
+    font-size: 12.5px;
+    margin-top: 30px;
+}
+
+footer p a{
+    color: #00cdb9;
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+}
+
+footer p a:hover{
+    transition: all ease 0.2s;
+    -webkit-transition: all ease 0.2s;
+    -moz-transition: all ease 0.2s;
+    color: #fff;
+}
+
+@media (max-width: 991px) {
+    .demo{
+        margin-bottom: 30px;
+    }
+
+    br{
+        display: none;
+    }
+
+}
