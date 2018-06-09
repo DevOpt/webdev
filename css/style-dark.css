@@ -10,14 +10,20 @@
 
 /*------------------------  ------------------------*/
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
 
  body{
     font-family: 'Poppins', sans-serif;
     height: 1500px;
  }
 
+ a:hover{
+   color: white;
+ }
+
  p{
    font-family: 'Open Sans', sans-serif;
+   color: #fff;
  }
 
  header{
@@ -27,7 +33,7 @@
  }
 
  header .buy-link{
-    color: #212E49;
+    color: #fff;
     font-size: 13px;
     font-weight: 600;
     transition: all ease 0.2s;
@@ -58,7 +64,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: #21252B;
     z-index: 0;
 }
 
@@ -70,9 +76,9 @@
  }
 
  .promo .promo-content{
-   text-align: center;
-   color: #212E49 !important;
-   position: absolute;
+    text-align: center;
+    color: #212E49 !important;
+    position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
@@ -87,8 +93,19 @@ transform: translate(-50%, -50%);
   .promo .promo-content p{
     font-size: 16px;
     font-weight: 300;
-    opacity: 0.7;
+    opacity: 0.9;
     line-height: 28px;
+ }
+
+ .promo figure img{
+     width: 70%;
+     border-radius: 20px;
+     box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.28);
+     -moz-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.28);
+     -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.28);
+     transition: all ease 0.3s;
+     -webkit-transition: all ease 0.3s;
+     -moz-transition: all ease 0.3s;
  }
 
 .page-btn{
@@ -140,6 +157,7 @@ transform: translate(-50%, -50%);
 
 .content h2{
   font-size: 40px;
+  color: #fff;
   font-weight: 700;
   padding:30px 15px 25px 15px;
 }
@@ -181,13 +199,12 @@ transform: translate(-50%, -50%);
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
-    color: #000;
+    color: #fff;
 }
 
 footer{
     background: #000;
     height: 300px;
-    margin-top: 90px;
 }
 
 footer .logo{
@@ -250,7 +267,7 @@ footer p a:hover{
 }
 
 .light-background{
-   background-color: #f2f6fa;
+   background-color: #21252B;
    background-size: cover;
    position: relative;
    padding: 0px 15px 15px 15px;
@@ -263,7 +280,7 @@ footer p a:hover{
   padding: 25px;
   border-radius: 20px;
   border-color: gray;
-  background-color: #fff;
+  background-color: #21252B;
   font-family: 'Poppins', sans-serif !important;
   transition: all ease 0.3s;
   -webkit-transition: all ease 0.3s;
@@ -272,10 +289,15 @@ footer p a:hover{
 
 .content figure .card:hover{
   transition: all ease 0.3s;
-  background-color: #F8F8F8;
+  background-color: #1e2126;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   transform: translate(0,-5px);
+}
+
+/* Work Experience Section */
+.work{
+  background-color: #21252B;
 }
 
 #avatar{
@@ -292,6 +314,7 @@ footer p a:hover{
 .title{
   font-size: 18px;
   font-weight: 700;
+  color: #fff;
 }
 
 .subtitle{
@@ -346,7 +369,7 @@ footer p a:hover{
 
 /*About Section */
 .about{
-   background-color: #fff;
+   background-color: #1e2126;
    background-size: cover;
    position: relative;
    padding: 0px 15px 15px 15px;
@@ -377,5 +400,5 @@ footer p a:hover{
 #typewriter{
   font-family: 'Roboto Mono', monospace;
   font-size: 25px;
-  color: gray;
+  color: white;
 }
